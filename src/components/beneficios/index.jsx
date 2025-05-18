@@ -38,7 +38,7 @@ export function Beneficios() {
 
   return (
     <section className="flex flex-col items-center w-full min-h-[600px] mt-5 rounded-sm">
-      <div className="text-center lg:max-w-[80%]">
+      <div className="text-center lg:max-w-[80%] mt-8">
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           Por que Investir?
         </h2>

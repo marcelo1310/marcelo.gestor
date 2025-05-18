@@ -47,7 +47,7 @@ export function Header() {
             ${menuAberto ? "opacity-100 translate-y-0" : "opacity-0 pointer-events-none translate-y-[50px]"}
             lg:hidden`}
         >
-          <ul className="text-center text-xl">
+          <ul className="text-center text-3xl">
             {links.map((link) => (
               <li key={link.nome} className="mb-4">
                 <a

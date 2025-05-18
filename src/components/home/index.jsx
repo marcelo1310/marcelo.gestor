@@ -1,13 +1,13 @@
-import imgHero from "../../assets/img/img-hero.png";
+import imgHero from "../../assets/img/img-hero.jpg";
 
 export function Home() {
   return (
     <section
       id="hero"
-      className="text-[var(--branco)] w-full min-h-[600px] h-[calc(100vh-200px)] mt-30 mb-10 flex flex-col items-center justify-center text-center lg:gap-7"
+      className="text-[var(--branco)] w-full min-h-[600px] mt-25 mb-20 flex flex-col items-center text-center lg:gap-7"
     >
       <h1
-        className="text-4xl font-bold mb-2 text-[var(--verde)]
+        className="text-4xl font-bold mt-8 border-amber-100 text-[var(--verde)]
       lg:text-5xl order-1"
       >
         Mais Visibilidade, Mais Clientes, Mais Vendas
@@ -17,10 +17,10 @@ export function Home() {
         <img
           src={imgHero}
           alt="Imagem inicial"
-          className="m-4 w-[70%] h-50 md:h-90 lg:w-1/2 lg:h-80"
+          className="w-full lg:m-w-1/2 mt-1"
         />
 
-        <p className=" text-lg text-justify m-4 font-semibold lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
+        <p className=" text-lg text-justify m-2 font-semibold lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
           Eu ajudo negócios a atrair clientes todos os dias. Vejo de perto o
           esforço de quem empreende e entendi que, com os anúncios certos, é
           possível transformar não só um negócio, mas uma vida inteira.
