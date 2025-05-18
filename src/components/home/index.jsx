@@ -17,7 +17,7 @@ export function Home() {
         <img
           src={imgHero}
           alt="Imagem inicial"
-          className="m-4 w-[70%] h-50 md:w-1/2 lg:h-80"
+          className="m-4 w-[70%] h-50 md:h-90 lg:w-1/2 lg:h-80"
         />
 
         <p className=" text-lg text-justify m-4 font-semibold lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
