@@ -4,23 +4,23 @@ export function Home() {
   return (
     <section
       id="hero"
-      className="text-[var(--branco)] w-full min-h-[600px] h-[calc(100vh-200px)] mt-30 mb-10 flex flex-col items-center justify-center text-center md:gap-7 lg:gap-10"
+      className="text-[var(--branco)] w-full min-h-[600px] h-[calc(100vh-200px)] mt-30 mb-10 flex flex-col items-center justify-center text-center lg:gap-7"
     >
       <h1
         className="text-4xl font-bold mb-2 text-[var(--verde)]
-      md:text-5xl order-1"
+      lg:text-5xl order-1"
       >
         Mais Visibilidade, Mais Clientes, Mais Vendas
       </h1>
 
-      <div className="flex flex-col min-w-[70%] items-center justify-center md:flex-row lg:w-[90%] xl:max-w-[80%] order-2">
+      <div className="flex flex-col min-w-[70%] items-center justify-center lg:flex-row lg:w-[90%] xl:max-w-[80%] order-2">
         <img
           src={imgHero}
           alt="Imagem inicial"
-          className="m-4 w-[70%] h-50 md:w-1/2 md:h-80"
+          className="m-4 w-[70%] h-50 md:w-1/2 lg:h-80"
         />
 
-        <p className=" text-lg text-justify m-4 font-semibold md:text-2xl mb-6 w-full md:m-4  md:leading-10 lg:leading-15">
+        <p className=" text-lg text-justify m-4 font-semibold lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
           Eu ajudo negócios a atrair clientes todos os dias. Vejo de perto o
           esforço de quem empreende e entendi que, com os anúncios certos, é
           possível transformar não só um negócio, mas uma vida inteira.

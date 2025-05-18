@@ -23,12 +23,12 @@ export function Header() {
 
       <nav className="flex items-center">
         {/* Botão de menu mobile */}
-        <button onClick={toggleMenu} className="md:hidden z-50">
+        <button onClick={toggleMenu} className="lg:hidden z-50">
           {menuAberto ? <IoClose size={35} /> : <IoMenu size={35} />}
         </button>
 
         {/* Menu Desktop */}
-        <ul className="hidden md:flex gap-6 2xl:gap-10">
+        <ul className="hidden lg:flex gap-6 2xl:gap-10">
           {links.map((link) => (
             <li key={link.nome}>
               <a
@@ -45,7 +45,7 @@ export function Header() {
         <div
           className={`fixed top-0 left-0 w-full h-screen flex flex-col items-center justify-center gap-6 bg-[var(--marrom)]/95 backdrop-blur-sm transition-all duration-1000 ease-in-out
             ${menuAberto ? "opacity-100 translate-y-0" : "opacity-0 pointer-events-none translate-y-[50px]"}
-            md:hidden`}
+            lg:hidden`}
         >
           <ul className="text-center text-xl">
             {links.map((link) => (

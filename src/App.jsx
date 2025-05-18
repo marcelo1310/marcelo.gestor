@@ -1,6 +1,7 @@
 import { Header } from "./components/header";
 import { Home } from "./components/home";
 import { Sobre } from "./components/sobre";
+import { Beneficios } from "./components/beneficios";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Home />
       <Sobre />
+      <Beneficios />
     </div>
   );
 }
