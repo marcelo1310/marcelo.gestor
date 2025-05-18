@@ -17,7 +17,7 @@ export function Home() {
         <img
           src={imgHero}
           alt="Imagem inicial"
-          className="w-full lg:m-w-1/2 mt-1"
+          className="w-full lg:m-w-1/2 mt-1 rounded-md"
         />
 
         <p className=" text-lg text-justify m-2 font-semibold lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
