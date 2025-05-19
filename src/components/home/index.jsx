@@ -4,7 +4,7 @@ export function Home() {
   return (
     <section
       id="hero"
-      className="text-[var(--branco)] w-full min-h-[600px] mt-25 mb-20 flex flex-col items-center text-center lg:gap-7"
+      className="text-[var(--branco)] w-full min-h-[600px] mt-25 flex flex-col items-center text-center lg:gap-7"
     >
       <h1
         className="text-4xl font-bold mt-8 border-amber-100 text-[var(--verde)]

@@ -2,7 +2,7 @@ import moi from "../../assets/img/moi.jpg";
 
 export function Sobre() {
   return (
-    <section id="quem-sou" className="flex flex-col w-full text-center bg-[var(--branco)] rounded-sm  order-1 lg:h-[600px]">
+    <section id="quem-sou" className="flex flex-col w-full text-center mt-5 bg-[var(--branco)] rounded-sm  order-1 lg:h-[600px]">
       <h2 className="m-6 text-4xl font-bold text-[var(--marrom)] text-center">Quem sou</h2>
       <div className="flex flex-col lg:flex-row">
         <img src={moi} alt="Foto do Marcelo" className="w-full lg:w-1/3" />
