@@ -42,7 +42,7 @@ export function Beneficios() {
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           Por que Investir?
         </h2>
-        <p className="text-justify text-lg font-semibold text-[var(--branco)] lg:text-center">
+        <p className="text-lg font-semibold text-[var(--branco)] lg:text-center">
           O tráfego pago é uma ferramenta fundamental para o crescimento digital
           das empresas, pois ajuda a atrair clientes em potencial e a aumentar a
           visibilidade da marca.

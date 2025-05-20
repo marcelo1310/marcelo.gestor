@@ -27,7 +27,7 @@ export function Home() {
           📲 Fale comigo no WhatsApp
         </a>
 
-        <p className="text-lg text-justify lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
+        <p className="text-lg lg:text-2xl mb-6 w-full lg:m-4  md:leading-10 lg:leading-15">
           Eu ajudo negócios a atrair clientes todos os dias. Vejo de perto o
           esforço de quem empreende e entendi que, com os anúncios certos, é
           possível transformar não só um negócio, mas uma vida inteira.

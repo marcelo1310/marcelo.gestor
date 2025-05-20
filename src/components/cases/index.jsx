@@ -7,7 +7,7 @@ export function Cases () {
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           O impacto do tráfego pago
         </h2>
-        <p className="text-justify text-lg font-semibold text-[var(--branco)] lg:text-center">
+        <p className="text-lg font-semibold text-[var(--branco)] lg:text-center">
           Confira os resultados de uma campanha de fotografias para o natal que
           gerenciei. Nela os anúncios ficaram ativos por puco mais de uma semana
           e com menos de R$ 50,00 alcancei resultados.
