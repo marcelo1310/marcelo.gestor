@@ -4,7 +4,7 @@ export function Home() {
   return (
     <section
       id="hero"
-      className="flex text-[var(--branco)] w-full min-h-[600px] mt-25 justify-center bg-cover bg-center lg:gap-7"
+      className="flex text-[var(--branco)] w-full min-h-[600px] mt-25 justify-center bg-cover bg-center lg:gap-7 rounded-md"
       style={{ backgroundImage: `url(${imgHero})` }}
     >
       <div className="flex flex-col max-w-[90%] text-center items-center gap-15 mt-10">
