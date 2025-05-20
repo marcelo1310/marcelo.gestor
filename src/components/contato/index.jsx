@@ -9,9 +9,9 @@ export function Contato() {
       <a
           href="https://wa.me/message/B3VCHP5M4BW5E1"
           target="_blank"
-          className="bg-[var(--verde)] text-white m-3 px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
+          className="bg-[var(--verde)] text-white m-3 px-15 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
         >
-          📲 Fale comigo no WhatsApp
+          📲 Fale comigo
         </a>
     </section>
   );
