@@ -1,12 +1,20 @@
-import imgCampanha from "../../assets/img/img-campanha.png"
+import imgCampanha from "../../assets/img/img-campanha.png";
+import imgCases from "../../assets/img/img-cases.jpg";
 
-export function Cases () {
+export function Cases() {
   return (
-    <section id="cases" className="flex flex-col w-full items-center rounder-sm">
-      <div className="text-center lg:max-w-[80%] mt-8">
+    <section
+      id="cases"
+      className="flex flex-col w-full items-center rounder-sm"
+    >
+      <div className="text-center w-full mt-8">
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           O impacto do tráfego pago
         </h2>
+        <div
+          className="w-full h-30 bg-cover bg-center md:h-40 lg:h-50"
+          style={{ backgroundImage: `url(${imgCases})` }}
+        ></div>
         <p className="text-lg font-semibold text-[var(--branco)] lg:text-center">
           Confira os resultados de uma campanha de fotografias para o natal que
           gerenciei. Nela os anúncios ficaram ativos por puco mais de uma semana
@@ -14,18 +22,24 @@ export function Cases () {
         </p>
       </div>
 
-      <div className=" flex flex-col w-full border-4 mt-5 border-[var(--verde)] bg-[var(--verde)] rounded-md">
-        <img src={imgCampanha} alt="imagem de uma campanha" />
-        <div className="flex flex-col w-full m-1">
-            <h3 className=" text-xl font-semibold mt-5">Já imaginou pagar R$ 0,13 por um cliente?</h3>
-            <ul className="flex flex-col gap-3 mt-5">
-                <li>Resultados: 339 visitas ao perfil</li>
-                <li>Alcance: 4.057 pessoas</li>
-                <li>Impressões: 6.269</li>
-                <li>Custo por visita: R$ 0,13</li>
-                <li>Valor investido: R$ 43,36</li>
-            </ul>
+      <div className=" flex flex-col w-full items-center border-4 mt-5 border-[var(--verde)] bg-[var(--verde)] rounded-md">
+        <img src={imgCampanha} alt="imagem de uma campanha" className="w-full"/>
+        <div className="flex flex-col w-full ml-5">
+          <h3 className=" text-2xl font-semibold mt-5">
+            Já imaginou pagar R$ 0,13 por um cliente?
+          </h3>
+          <ul className="flex flex-col gap-3 mt-5">
+            <li>Resultados: 339 visitas ao perfil</li>
+            <li>Alcance: 4.057 pessoas</li>
+            <li>Impressões: 6.269</li>
+            <li>Custo por visita: R$ 0,13</li>
+            <li>Valor investido: R$ 43,36</li>
+          </ul>
         </div>
+        <p className="w-full text-center text-xl m-6">
+          A minha estratégia é simples: impulsionar sua marca, comunicar suas
+          ideias e impactar pessoas.
+        </p>
       </div>
     </section>
   );

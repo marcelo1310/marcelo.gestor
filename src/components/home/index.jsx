@@ -19,7 +19,7 @@ export function Home() {
           querem vender mais.
         </p>
 
-         <a
+        <a
           href="https://wa.me/message/B3VCHP5M4BW5E1"
           target="_blank"
           className="bg-[var(--verde)] text-white mt-1 px-15 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 hover:shadow-lg transition-all duration-300 ease-in-out"
@@ -32,7 +32,6 @@ export function Home() {
           esforço de quem empreende e entendi que, com os anúncios certos, é
           possível transformar não só um negócio, mas uma vida inteira.
         </p>
-       
       </div>
     </section>
   );
