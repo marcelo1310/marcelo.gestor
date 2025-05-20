@@ -1,7 +1,7 @@
 export function Solucao() {
   return (
     <section className="flex flex-col w-full items-center justify-center mt-20">
-      <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[var(--verde)]">
+      <h2 className="text-center text-3xl md:text-4xl font-bold mb-10 text-[var(--verde)]">
         Agora imagine o contrário...
       </h2>
 
@@ -20,7 +20,7 @@ export function Solucao() {
         </li>
       </ul>
 
-      <p className="mt-12 text-xl md:text-2xl font-semibold">
+      <p className=" text-center mt-12 text-xl md:text-2xl font-semibold">
         Isso é possível com estratégias de{" "}
         <span className="text-[var(--verde)]">tráfego pago bem aplicadas.</span>
       </p>

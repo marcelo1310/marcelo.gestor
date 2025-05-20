@@ -13,7 +13,7 @@ export function Dores() {
         <li>❌ Não sabe por onde começar com os anúncios pagos</li>
       </ul>
 
-      <p className="mt-10 text-xl md:text-2xl font-semibold">
+      <p className="text-center mt-10 text-xl md:text-2xl font-semibold">
         Se você se identificou com 1 ou mais desses pontos,{" "}
         <span className="text-[var(--verde)]">eu posso te ajudar.</span>
       </p>
