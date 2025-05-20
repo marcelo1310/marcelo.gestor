@@ -2,7 +2,7 @@ import imgCampanha from "../../assets/img/img-campanha.png"
 
 export function Cases () {
   return (
-    <section className="flex flex-col w-full items-center rounder-sm">
+    <section id="cases" className="flex flex-col w-full items-center rounder-sm">
       <div className="text-center lg:max-w-[80%] mt-8">
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           O impacto do tráfego pago

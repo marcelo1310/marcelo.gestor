@@ -37,7 +37,7 @@ export function Beneficios() {
   ];
 
   return (
-    <section className="flex flex-col items-center w-full min-h-[600px] rounded-sm">
+    <section id="beneficios" className="flex flex-col items-center w-full min-h-[600px] rounded-sm">
       <div className="text-center lg:max-w-[80%] mt-8">
         <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
           Por que Investir?
@@ -49,7 +49,7 @@ export function Beneficios() {
         </p>
       </div>
 
-      <div className="flex flex-col items-center gap-5 w-full mt-15">
+      <div className="flex flex-col gap-5 items-center gap- w-full mt-15 md:grid md:grid-cols-2 lg:grid grid-cols-3 lg:gap-3 ">
         {dadosDosCards.map((card, index) => (
             <Cards key={index} titulo={card.titulo} paragrafo={card.paragrafo}/>
         ))}

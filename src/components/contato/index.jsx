@@ -1,6 +1,6 @@
 export function Contato() {
   return (
-    <section className="flex flex-col w-full min-h-[350px] items-center text-center mt-5">
+    <section id="contato" className="flex flex-col w-full min-h-[350px] items-center text-center mt-5">
       <h2 className="m-6 text-4xl font-bold text-[var(--verde)]">Vamos conversar?</h2>
       <p className="m-3 text-lg font-semibold text-[var(--branco)] lg:text-center">
         A minha estratégia é simples: impulsionar sua marca, comunicar suas

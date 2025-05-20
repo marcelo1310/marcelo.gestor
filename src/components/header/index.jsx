@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
-import eu from "../../assets/img/eu.jpg"
+import eu from "../../assets/img/eu.jpg";
 
 export function Header() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -9,9 +9,9 @@ export function Header() {
 
   const links = [
     { nome: "Início", href: "#hero" },
-    { nome: "Sobre", href: "#quem-sou" },
     { nome: "Benefícios", href: "#beneficios" },
     { nome: "Cases", href: "#cases" },
+    { nome: "Sobre", href: "#quem-sou" },
     { nome: "Contato", href: "#contato" },
   ];
 
@@ -44,7 +44,11 @@ export function Header() {
         {/* Menu Mobile */}
         <div
           className={`fixed top-0 left-0 w-full h-screen flex flex-col items-center justify-center gap-6 bg-[var(--marrom)]/95 backdrop-blur-sm transition-all duration-1000 ease-in-out
-            ${menuAberto ? "opacity-100 translate-y-0" : "opacity-0 pointer-events-none translate-y-[50px]"}
+            ${
+              menuAberto
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 pointer-events-none translate-y-[50px]"
+            }
             lg:hidden`}
         >
           <ul className="text-center text-3xl">
@@ -65,10 +69,6 @@ export function Header() {
     </header>
   );
 }
-
-
-
-
 
 /*
 import { useState } from "react";

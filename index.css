@@ -1,15 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --verde-escuro: #61892f;
   --verde: #86c232;
-  --grafite: #222629;
-  --chumbo: #474b4f;
   --cinza: #6b6e70;
-  --bege: #f5f0e6;
   --branco: #fafafa;
-  --marrom: #000;
-  --footer: #141414;
+  --marrom: #141414;
+  
 }
 
 body {
@@ -21,5 +17,5 @@ body {
   background-color: var(--marrom);
   color: var(--branco);
 }
-#141414
-#1f1f1f
+
+/*--marrom: #2d2a27;*/
