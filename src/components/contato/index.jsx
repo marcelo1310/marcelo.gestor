@@ -2,7 +2,7 @@ export function Contato() {
   return (
     <section
       id="contato"
-      className="bg-[var(--grafite)] text-[var(--branco)] py-16 px-4 text-center flex flex-col items-center gap-6"
+      className="bg-[var(--grafite)] text-[var(--branco)] py-10 text-center flex flex-col items-center gap-6"
     >
       <h2 className="text-3xl md:text-4xl font-bold text-[var(--verde)]">
         Pronto para atrair mais clientes?
@@ -14,7 +14,7 @@ export function Contato() {
         personalizada para você!
       </p>
 
-      <div className="flex flex-col gap-4 mt-4">
+      <div className="flex flex-col gap-4 py-4">
         <a
           href="https://wa.me/message/B3VCHP5M4BW5E1"
           target="_blank"

@@ -1,7 +1,7 @@
 export function Cards({ titulo, icone, paragrafo }) {
   return (
-    <div className="flex flex-col w-full h-50 items-center bg-[var(--branco)] rounded-lg">
-      <div className="flex justify-center items-center w-full h-15 text-center bg-[var(--verde)] rounded-t-md">
+    <div className="flex flex-col w-full h-50 items-center bg-[var(--branco)] rounded-sm">
+      <div className="flex justify-center items-center w-full h-15 text-center bg-[var(--verde)] rounded-t-sm">
         <h3 className="text-2xl font-bold">{titulo}</h3>
       </div>
 

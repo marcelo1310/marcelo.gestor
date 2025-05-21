@@ -37,9 +37,12 @@ export function Beneficios() {
   ];
 
   return (
-    <section id="beneficios" className="flex flex-col items-center w-full min-h-[600px] rounded-sm">
-      <div className="text-center lg:max-w-[80%] mt-8">
-        <h2 className="m-6 text-center text-4xl font-bold text-[var(--verde)]">
+    <section
+      id="beneficios"
+      className="flex flex-col items-center w-full min-h-[600px]"
+    >
+      <div className="flex flex-col py-10 text-center lg:max-w-[80%] gap-5">
+        <h2 className="text-center text-4xl font-bold text-[var(--verde)]">
           Por que Investir?
         </h2>
         <p className="text-lg font-semibold text-[var(--branco)] lg:text-center">
@@ -49,9 +52,9 @@ export function Beneficios() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-5 items-center gap- w-full mt-15 md:grid md:grid-cols-2 lg:grid grid-cols-3 lg:gap-3 ">
+      <div className="flex flex-col gap-5 items-center py-10 w-full md:grid md:grid-cols-2 lg:grid grid-cols-3 lg:gap-3 ">
         {dadosDosCards.map((card, index) => (
-            <Cards key={index} titulo={card.titulo} paragrafo={card.paragrafo}/>
+          <Cards key={index} titulo={card.titulo} paragrafo={card.paragrafo} />
         ))}
       </div>
     </section>

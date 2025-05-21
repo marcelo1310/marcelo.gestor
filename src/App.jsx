@@ -2,6 +2,7 @@ import { Header } from "./components/header";
 import { Home } from "./components/home";
 import { Dores } from "./components/dores";
 import { Solucao } from "./components/solucao";
+import { Oferta } from "./components/oferta/oferta";
 import { Sobre } from "./components/sobre";
 import { Beneficios } from "./components/beneficios";
 import { Cases } from "./components/cases";
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <Dores />
       <Solucao />
+      <Oferta />
       <Beneficios />
       <Cases />
       <Sobre />

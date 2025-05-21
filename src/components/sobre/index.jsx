@@ -4,14 +4,14 @@ export function Sobre() {
   return (
     <section
       id="quem-sou"
-      className="flex flex-col w-full text-center mt-5 bg-[var(--branco)] rounded-sm  order-1 lg:h-[550px]"
+      className="flex flex-col mt-10 w-full text-center bg-[var(--branco)] rounded-sm lg:h-[550px]"
     >
-      <h2 className="m-6 text-4xl font-bold text-[var(--marrom)] text-center">
+      <h2 className="py-8 text-4xl font-bold text-[var(--marrom)] text-center">
         Quem sou
       </h2>
       <div className="flex flex-col lg:flex-row lg:grid grid-cols-2 gap-5">
-        <img src={moi} alt="Foto do Marcelo" className="w-full lg:" />
-        <p className="text-lg font-semibold text-[var(--marrom)] m-5 text-justify">
+        <img src={moi} alt="Foto do Marcelo" className="w-full px-6 py-5" />
+        <p className="text-lg font-semibold text-[var(--marrom)] px-5 py-6 text-justify md:leading-10">
           Olá! Me chamo Marcelo, sou apaixonado por tecnologia, comunicação e
           resultados. Atualmete curso Engenharia de Software e mergulhei no
           tráfego pago para ajudar negócios locais a crescerem online. Já

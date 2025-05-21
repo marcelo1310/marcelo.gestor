@@ -1,22 +1,23 @@
 export function Dores() {
   return (
-    <section className="flex flex-col items-center mt-20">
-      <h2 className="text-center text-3xl md:text-4xl font-bold mb-10 text-[var(--verde)]">
-        Você está enfrentando algum desses desafios?
+    <section className="w-full py-10 text-center flex flex-col gap-6 items-center justify-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-[var(--verde)]">
+        Você se identifica com isso?
       </h2>
-
-      <ul className="space-y-6 text-lg md:text-xl max-w-3xl mx-auto">
-        <li>❌ Suas vendas não batem as metas no fim do mês</li>
-        <li>❌ Depende só de indicação ou do Instagram para atrair clientes</li>
-        <li>❌ Posta com frequência, mas não vê resultados reais</li>
-        <li>❌ Cansado de esperar pelo crescimento orgânico</li>
-        <li>❌ Não sabe por onde começar com os anúncios pagos</li>
+      <ul className="text-lg md:text-xl max-w-3xl flex flex-col gap-4">
+        <li>
+          📉 As vendas não batem as metas e você não sabe mais o que testar.
+        </li>
+        <li>⏳ Está cansado de esperar resultados do tráfego orgânico.</li>
+        <li>
+          📢 Já investiu em anúncios, mas sentiu que estava jogando dinheiro
+          fora.
+        </li>
+        <li>
+          🧭 Quer crescer seu negócio, mas não tem tempo nem conhecimento
+          técnico.
+        </li>
       </ul>
-
-      <p className="text-center mt-10 text-xl md:text-2xl font-semibold">
-        Se você se identificou com 1 ou mais desses pontos,{" "}
-        <span className="text-[var(--verde)]">eu posso te ajudar.</span>
-      </p>
     </section>
   );
 }
